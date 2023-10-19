@@ -281,7 +281,7 @@ html.w-mod-touch * {
 }
 
 .w-button {
-  color: #fff;
+  color:  #fff; 
   line-height: inherit;
   cursor: pointer;
   background-color: #3898ec;
@@ -1959,7 +1959,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-nav-button.w--open {
-  color: #fff;
+  color:  #fff;
   background-color: #c8c8c8;
 }
 
@@ -3582,7 +3582,7 @@ figcaption {
 
 .submit-button {
   color: #0a0a0a;
-  background-color: #f7f7f7;
+  background-color:  #f7f7f7; 
   border-radius: 100rem;
   padding: 1rem;
   font-size: 1.1rem;
