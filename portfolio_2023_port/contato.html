@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Lucas Feitosa</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="./index.html" class="logo">lucas feitosa<span>.</span></a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="./sobre_mim.html">Sobre Mim</a>
+            <a href="./trabalhos.html">Trabalhos</a>
+            <a href="./contato.html" class="active">Contato</a>
+        </nav>
+    </header>
+    <section class="contact" id="contact">
+        <h2 class="heading">entre em contato<span>!</span></h2>
+    
+        <div class="form-container">
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Telefone">
+                    <input type="text" placeholder="Assunto">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                <input type="submit" value="Enviar Mensagem" class="btn">
+            </form>
+    
+            <div class="contact-image">
+                <img src="./images/obrigado.png" alt="Descrição da imagem">
+            </div>
+        </div>
+    </section>
+    <style>
+        .form-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    flex: 1; /* O formulário ocupará todo o espaço disponível na horizontal */
+    /* Adicione estilos adicionais ao formulário conforme necessário */
+}
+
+.contact-image {
+    flex: 1; /* A imagem também ocupará todo o espaço disponível na horizontal */
+    /* Adicione estilos adicionais à imagem conforme necessário */
+    max-width: 30%;
+    
+}
+
+/* Estilos adicionais para responsividade */
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column; /* Empilhe os elementos verticalmente em telas menores */
+    }
+
+    /* Estilos adicionais para formulário e imagem em telas menores */
+}
+
+    </style>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>    
